@@ -2,36 +2,40 @@ Experience.create(
   title: 'Teachers Cirriculum Institute',
   position: 'Intern Software Developer',
   content: 'Nunc non mi arcu. Integer dui ligula, tempor id suscipit ut, ornare pretium purus. Nulla facilisi. Etiam a cursus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla interdum aliquet. Aenean facilisis mattis massa, quis bibendum turpis consequat nec. Cras est magna, placerat vitae enim non, aliquet consectetur est. Nullam faucibus turpis in turpis pulvinar, tempus dignissim leo tristique. Vivamus aliquet dui sed cursus dignissim. Ut fermentum neque eget velit fermentum iaculis. Curabitur vel augue in mauris venenatis suscipit in eu arcu.',
-  start_date: 'July 2018',
-  end_date: 'September 2018',
-  location: 'Mountain View, CA'
+  start_date: DateTime.new(2018, 7),
+  end_date: DateTime.new(2018, 9),
+  location_city: 'Mountain View',
+  location_state: 'CA'
 )
 
 Experience.create(
   title: 'RubyThree',
   position: 'Junior Web Developer',
   content: 'Nunc non mi arcu. Integer dui ligula, tempor id suscipit ut, ornare pretium purus. Nulla facilisi. Etiam a cursus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla interdum aliquet. Aenean facilisis mattis massa, quis bibendum turpis consequat nec. Cras est magna, placerat vitae enim non, aliquet consectetur est. Nullam faucibus turpis in turpis pulvinar, tempus dignissim leo tristique. Vivamus aliquet dui sed cursus dignissim. Ut fermentum neque eget velit fermentum iaculis. Curabitur vel augue in mauris venenatis suscipit in eu arcu.',
-  start_date: 'February 2018',
-  end_date: 'May 2018',
-  location: 'Dublin, CA'
+  start_date: DateTime.new(2018, 2),
+  end_date: DateTime.new(2018, 5),
+  location_city: 'Dublin',
+  location_state: 'CA'
 )
 
 Experience.create(
   title: 'Felix Properties',
   position: 'Web Developer',
   content: 'Nunc non mi arcu. Integer dui ligula, tempor id suscipit ut, ornare pretium purus. Nulla facilisi. Etiam a cursus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla interdum aliquet. Aenean facilisis mattis massa, quis bibendum turpis consequat nec. Cras est magna, placerat vitae enim non, aliquet consectetur est. Nullam faucibus turpis in turpis pulvinar, tempus dignissim leo tristique. Vivamus aliquet dui sed cursus dignissim. Ut fermentum neque eget velit fermentum iaculis. Curabitur vel augue in mauris venenatis suscipit in eu arcu.',
-  start_date: 'August 2017',
-  end_date: 'September 2017',
-  location: 'Sunnyvale, CA'
+  start_date: DateTime.new(2018, 8),
+  end_date: DateTime.new(2018, 9),
+  location_city: 'Sunnyvale',
+  location_state: 'CA'
 )
 
 Experience.create(
   title: 'Starbucks',
   position: 'Barista',
   content: 'Nunc non mi arcu. Integer dui ligula, tempor id suscipit ut, ornare pretium purus. Nulla facilisi. Etiam a cursus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla interdum aliquet. Aenean facilisis mattis massa, quis bibendum turpis consequat nec. Cras est magna, placerat vitae enim non, aliquet consectetur est. Nullam faucibus turpis in turpis pulvinar, tempus dignissim leo tristique. Vivamus aliquet dui sed cursus dignissim. Ut fermentum neque eget velit fermentum iaculis. Curabitur vel augue in mauris venenatis suscipit in eu arcu.',
-  start_date: 'July 2015',
-  end_date: 'September 2018',
-  location: 'San Jose, CA'
+  start_date: DateTime.new(2018, 7),
+  end_date: DateTime.new(2018, 9),
+  location_city: 'San Jose',
+  location_state: 'CA'
 )
 
 puts 'Generated Experience Seeds'
