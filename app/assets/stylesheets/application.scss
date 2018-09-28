@@ -1,11 +1,25 @@
 @import 'bootstrap';
+@import 'colors';
 @import 'projects';
 @import 'experience';
+
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+body {
+  background: $accented-white;
+}
+
+.clear {
+  clear: both;
+}
+
+.emphasis {
+  font-size: 1.2em;
 }
 
 .raleway{
@@ -14,4 +28,16 @@
 
 .open-sans{
   font-family: 'Open Sans', sans-serif;
+}
+
+.noticia {
+  font-family: 'Noticia Text', sans-serif;
+}
+
+.play {
+  font-family: 'Play', sans-serif;
+}
+
+.raleway-dots {
+  font-family: 'Raleway Dots', cursive;
 }

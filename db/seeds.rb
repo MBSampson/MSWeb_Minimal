@@ -24,12 +24,21 @@ Experience.create(
 
 Project.create(
   title: 'MovieGrumps',
-  bg_image: 'movie-seats-bg.png',
-  technologies: ['ruby', 'postgresql', 'html', 'rails']
+  css_class: 'moviegrumps',
+  technologies: ['ruby', 'postgresql', 'html', 'rails'],
+  link_address: '#'
 )
 
 Project.create(
- title: 'R3Adspace',
- bg_image: 'adlisting.png',
- technologies: ['ruby', 'rails', 'postgresql', 'html', 'jquery']
+  title: 'R3Adspace',
+  css_class: 'adspace',
+  technologies: ['ruby', 'rails', 'postgresql', 'html', 'jquery'],
+  link_address: '#'
+)
+
+Project.create(
+  title: 'Casa Del Sol',
+  css_class: 'casadelsol',
+  technologies: ['javascript', 'html', 'css'],
+  link_address: '#'
 )

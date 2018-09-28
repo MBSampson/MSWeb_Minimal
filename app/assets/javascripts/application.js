@@ -22,13 +22,11 @@ $(function(){
 
   $(projectCards).each(function(index) {
     $(projectCards).eq(index).on('mouseenter', function(){
-      console.log('mouse in');
       $(this).addClass('non-grayscale');
       $(this).find('.tag-header').removeClass('closed');
     });
 
     $(projectCards).eq(index).on('mouseleave', function(){
-      console.log('mouse out');
       $(this).removeClass('non-grayscale');
       $(this).find('.tag-header').addClass('closed');
     });

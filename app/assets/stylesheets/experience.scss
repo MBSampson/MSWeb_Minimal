@@ -1,19 +1,24 @@
 /*** Experience ***/
-.experience-container {
-  width: 600px;
-  border: 1px solid black;
-}
+.experience-info {
+  width: 100%;
+  margin: 25px auto;
 
-.experience-title {
-  font-size: 14px;
-}
+  .experience-title {
+    float: left;
+    font-size: 18px;
+    height: 20px;
+  }
 
-.title-accent {
-  font-size: 18px;
-}
+  .experience-sidetitle {
+    float: right;
+    display: inline-block;
+    color: $soft-blue;
+    font-size: 14px;
+    height: 20px;
+  }
 
-.date {
-  float: right;
-  font-size: 14px;
-  margin-top: 4px;
+  .experience-footer {
+    float: right;
+    font-size: 17px;
+  }
 }

@@ -1,51 +1,51 @@
-<p id="notice"><%= notice %></p>
+<h1>
+  <span>MSampson</span>
+  <span>Projects</span>
+  <span>Experience</span>
+</h1>
+<hr>
+
+<% @experience.each do |experience| %>
+  <div class='experience-info'>
+    <div class='experience-title noticia'>
+     <%= experience.position %> @ <%= experience.title %>
+    </div>
+    <div class='experience-sidetitle noticia'>
+      <%= experience.start_date %> to <%= experience.end_date %> | Mountain View, CA
+    </div>
+    <div class='clear'></div>
+    <br />
+    <div class='experience-content'>
+      <%= experience.content %>
+    </div>
+  </div>
+<% end %>
 
 <h1>Projects</h1>
+<hr>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Bg image</th>
-      <th>Technologies</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<div class="row">
+  <% @projects.each do |project| %>
+    <div class="col-md-6">
+      <div class="project-card <%= project.css_class %>">
+        <div class="tag-header closed">
+          <i class="devicon-postgresql-plain-wordmark"></i>
+          <i class="devicon-ruby-plain-wordmark"></i>
+          <i class="devicon-rails-plain-wordmark"></i>
+          <i class="devicon-html5-plain-wordmark"></i>
+          <i class="devicon-jquery-plain-wordmark"></i>
+        </div>
+        <div class="project-title">
+          <%= link_to project.title, project.link_address %>
 
-  <tbody>
-    <% @projects.each do |project| %>
-      <tr>
-        <td><%= project.title %></td>
-        <td><%= project.bg_image %></td>
-        <td><%= project.technologies %></td>
-        <td><%= link_to 'Show', project %></td>
-        <td><%= link_to 'Edit', edit_project_path(project) %></td>
-        <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Project', new_project_path %>
-
-<div class="project-card">
-  <div class="tag-header closed">
-    <i class="devicon-postgresql-plain-wordmark"></i>
-    <i class="devicon-ruby-plain-wordmark"></i>
-    <i class="devicon-rails-plain-wordmark"></i>
-    <i class="devicon-html5-plain-wordmark"></i>
-    <i class="devicon-jquery-plain-wordmark"></i>
-  </div>
-  <div class="project-title">
-    <a href="#">
-      <span class="title-prefix">MOVIE</span>GRUMPS
-    </a>
-  </div>
-  <div class="project-footer">
-    <a href="#">
-      <i class="devicon-github-plain-wordmark"></i>
-    </a>
-  </div>
+        </div>
+        <div class="project-footer">
+          <a href="#">
+            <i class="devicon-github-plain-wordmark"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  <% end %>
 </div>
+

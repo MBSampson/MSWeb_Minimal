@@ -1,84 +1,96 @@
 /*** Projects ***/
 .project-card {
-  width: 300px;
-  height: 500px;
+  width: 350px;
+  height: 450px;
 
-  border: 5px single #373737;
+  border: 5px single $light-grey;
   position: relative;
-  background: url('https://cdn.pixabay.com/photo/2017/08/05/15/00/auditorium-2584269_1280.jpg');
-  background-position: center;
 
   -webkit-filter: grayscale(100%);
   transition: all 0.5s;
+
+  // Center for mobile
+  margin: 10px auto;
+
+  .project-title {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: $white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0.75);
+  }
+
+  .project-footer {
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+  }
+
+  a {
+    color: $white;
+  }
+
+  a:hover {
+    color: $accented-white;
+  }
+
+  .tag-header {
+    max-height: 50px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    background: $light-grey;
+    text-align: center;
+    background: black;
+
+    overflow-y: hidden;
+
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  }
+
+  .closed {
+    max-height: 0;
+  }
+
+  i {
+    font-size: 30px;
+    margin: 10px 15px;
+    width: 25px;
+    display: inline-block;
+    color: white;
+  }
+
+  .project-card-btn {
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+
+    color: white;
+    background: black;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+  }
 }
 
 .non-grayscale {
   -webkit-filter: grayscale(0%) !important;
 }
 
-.project-title {
-  position: absolute;
-  top: 30%;
-  width: 100%;
-  text-align: center;
-  color: #FFFFF0;
-  font-family: 'Raleway', sans-serif;
-  font-size: 25px;
+.moviegrumps {
+  background: url('movie-seats.jpg');
+  background-position: center;
 }
 
-.project-footer {
-  width: 100%;
-  text-align: right;
-  position: absolute;
-  bottom: 0;
+.adspace {
+  background: url('warehouse-bg2.jpg');
 }
 
-a {
-  color: white;
-}
-
-a:hover {
-  color: #fffff0;
-}
-
-.title-prefix {
-  color: #f4f4f4;
-}
-
-.tag-header {
-  max-height: 50px;
-  width: 100%;
-  border-bottom: 1px solid white;
-  background: #373737;
-  text-align: center;
-
-  overflow-y: hidden;
-
-  transition-property: all;
-  transition-duration: .5s;
-  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-}
-
-.closed {
-  max-height: 0;
-}
-
-i {
-  font-size: 30px;
-  margin: 10px 15px;
-  width: 25px;
-  display: inline-block;
-  color: white;
-}
-
-.project-card-btn {
-  font-family: 'Raleway', sans-serif;
-  position: absolute;
-  bottom: 0px;
-  left: 40%;
-
-  color: white;
-  background: #373737;
-  cursor: pointer;
-  transition: 0.5s ease-in;
+.casadelsol {
+  background: url('cds-bg.jpg');
 }
