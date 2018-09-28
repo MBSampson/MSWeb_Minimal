@@ -18,8 +18,39 @@
 //= require_tree .
 
 $(function(){
-  var projectCards = $('.project-card');
+  var $projectCards = $('.project-card');
+  var $aboutBtn = $('#about-btn');
+  var $experienceBtn = $('#experience-btn');
+  var $projectsBtn = $('#projects-btn');
+  var $aboutContainer = $('#about-container');
+  var $experienceContainer = $('#experience-container');
+  var $projectsContainer = $('#projects-container');
 
+  setNavListeners($aboutBtn, $experienceBtn, $projectsBtn, $aboutContainer, $experienceContainer, $projectsContainer);
+  setProjectCardListeners($projectCards);
+});
+
+function setNavListeners(aboutBtn, experienceBtn, projectsBtn, aboutContainer, experienceContainer, projectsContainer) {
+  $(aboutBtn).on('click', function() {
+    $(aboutContainer).addClass('show');
+    $(experienceContainer).removeClass('show');
+    $(projectsContainer).removeClass('show');
+  });
+
+  $(experienceBtn).on('click', function() {
+    $(aboutContainer).removeClass('show');
+    $(experienceContainer).addClass('show');
+    $(projectsContainer).removeClass('show');
+  });
+
+  $(projectsBtn).on('click', function() {
+    $(aboutContainer).removeClass('show');
+    $(experienceContainer).removeClass('show');
+    $(projectsContainer).addClass('show');
+  });
+}
+
+function setProjectCardListeners(projectCards) {
   $(projectCards).each(function(index) {
     $(projectCards).eq(index).on('mouseenter', function(){
       $(this).addClass('non-grayscale');
@@ -31,5 +62,4 @@ $(function(){
       $(this).find('.tag-header').addClass('closed');
     });
   });
-});
-
+}

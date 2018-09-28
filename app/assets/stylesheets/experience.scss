@@ -1,24 +1,31 @@
 /*** Experience ***/
-.experience-item {
-  width: 100%;
-  margin: 25px auto;
+#experience-container {
+  position: absolute;
+  top: 0;
+  transition: opacity 0.5s linear;
 
-  .experience-title {
-    float: left;
-    font-size: 18px;
-    height: 20px;
-  }
+  .experience-item {
+    width: 100%;
+    margin: 25px auto;
 
-  .experience-sidetitle {
-    float: right;
-    display: inline-block;
-    color: $soft-blue;
-    font-size: 14px;
-    height: 20px;
-  }
+    .experience-title {
+      float: left;
+      font-size: 18px;
+      height: 20px;
+    }
 
-  .experience-footer {
-    float: right;
-    font-size: 17px;
+    .experience-sidetitle {
+      float: right;
+      display: inline-block;
+      color: $soft-blue;
+      font-size: 14px;
+      height: 20px;
+    }
+
+    .experience-footer {
+      float: right;
+      font-size: 17px;
+    }
   }
 }
+

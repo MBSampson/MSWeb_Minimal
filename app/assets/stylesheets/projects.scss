@@ -1,81 +1,85 @@
 /*** Projects ***/
-.project-card {
-  width: 350px;
-  height: 450px;
-  background: black;
+#projects-container{
+  position: absolute;
+  top: 0;
+  transition: opacity 0.5s linear;
 
-  border: 5px single $light-grey;
-  position: relative;
+  .project-card {
+    width: 350px;
+    height: 450px;
 
-  -webkit-filter: grayscale(100%);
-  transition: all 0.5s;
+    border: 5px single $light-grey;
+    position: relative;
 
-  // Center for mobile
-  margin: 10px auto;
+    -webkit-filter: grayscale(100%);
 
-  .project-title {
-    position: absolute;
-    top: 40%;
-    width: 100%;
-    text-align: center;
-    color: $white;
-    font-family: 'Raleway', sans-serif;
-    font-size: 25px;
-    background: rgba(0, 0, 0, 0.9);
-  }
+    // Center for mobile
+    margin: 10px auto;
 
-  .project-footer {
-    width: 100%;
-    text-align: right;
-    position: absolute;
-    bottom: 0;
-  }
+    .project-title {
+      position: absolute;
+      top: 40%;
+      width: 100%;
+      text-align: center;
+      color: $white;
+      font-family: 'Raleway', sans-serif;
+      font-size: 25px;
+      background: rgba(0, 0, 0, 0.9);
+    }
 
-  a {
-    color: $white;
-  }
+    .project-footer {
+      width: 100%;
+      text-align: right;
+      position: absolute;
+      bottom: 0;
+    }
 
-  a:hover {
-    color: $accented-white;
-  }
+    a {
+      color: $white;
+    }
 
-  .tag-header {
-    max-height: 50px;
-    width: 100%;
-    border-bottom: 1px solid white;
-    background: $light-grey;
-    text-align: center;
-    background: black;
+    a:hover {
+      color: $accented-white;
+    }
 
-    overflow-y: hidden;
+    .tag-header {
+      max-height: 50px;
+      width: 100%;
+      border-bottom: 1px solid white;
+      background: $light-grey;
+      text-align: center;
+      background: black;
 
-    transition-property: all;
-    transition-duration: .5s;
-    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-  }
+      overflow-y: hidden;
 
-  .closed {
-    max-height: 0;
-  }
+      transition-property: all;
+      transition-duration: .5s;
+      transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    }
 
-  i {
-    font-size: 30px;
-    margin: 10px 15px;
-    width: 25px;
-    display: inline-block;
-    color: white;
-  }
+    .closed {
+      max-height: 0;
+    }
 
-  .project-card-btn {
-    font-family: 'Raleway', sans-serif;
-    position: absolute;
-    bottom: 0px;
-    left: 40%;
+    i {
+      font-size: 30px;
+      margin: 10px 15px;
+      width: 25px;
+      display: inline-block;
+      color: white;
+    }
 
-    color: white;
-    background: black;
-    cursor: pointer;
-    transition: 0.5s ease-in;
+    .project-card-btn {
+      font-family: 'Raleway', sans-serif;
+      position: absolute;
+      bottom: 0px;
+      left: 40%;
+
+      color: white;
+      background: black;
+      cursor: pointer;
+      //transition: 0.5s ease-in;
+    }
   }
 }
 
@@ -84,7 +88,7 @@
 }
 
 .moviegrumps {
-  background-image: url('movie-seats.jpg');
+  background-image: url('movie-seats.jpg') !important;
   background-position: center;
 }
 

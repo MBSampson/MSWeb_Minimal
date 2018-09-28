@@ -1,7 +1,9 @@
 @import 'bootstrap';
 @import 'colors';
+@import 'about';
 @import 'projects';
 @import 'experience';
+@import 'nav';
 
 
 * {
@@ -12,6 +14,10 @@
 
 body {
   background: $accented-white;
+}
+
+#main-content {
+  position: relative;
 }
 
 .clear {
@@ -46,30 +52,19 @@ body {
   margin-bottom: 2%;
 }
 
-.selected {
-  color: $sky-blue;
-}
-
 .black {
   color: black !important;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1 !important;
 }
 
 .center {
   text-align: center;
 }
 
-.main-nav {
-  font-family: 'Raleway', sans-serif;
-  font-size: 25px;
-
-  a {
-    width: 24.3%;
-    text-align: center;
-    display: inline-block;
-    color: $sky-blue;
-  }
-
-  a:hover {
-    text-decoration: none;
-  }
-}

@@ -1,0 +1,20 @@
+#main-nav {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+
+  button, a {
+    width: 24.3%;
+    text-align: center;
+    display: inline-block;
+    color: $sky-blue;
+
+    background: none;
+    border: none;
+
+    cursor: pointer;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+}
