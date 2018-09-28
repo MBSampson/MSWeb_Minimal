@@ -32,21 +32,35 @@ $(function(){
 
 function setNavListeners(aboutBtn, experienceBtn, projectsBtn, aboutContainer, experienceContainer, projectsContainer) {
   $(aboutBtn).on('click', function() {
-    $(aboutContainer).addClass('show');
-    $(experienceContainer).removeClass('show');
-    $(projectsContainer).removeClass('show');
+    $(experienceContainer).fadeOut(200);
+    $(projectsContainer).fadeOut(200);
+
+    setTimeout(function() {
+      $(aboutContainer).delay(200).fadeIn(200);
+    }, 250)
   });
 
   $(experienceBtn).on('click', function() {
-    $(aboutContainer).removeClass('show');
-    $(experienceContainer).addClass('show');
-    $(projectsContainer).removeClass('show');
+    $(aboutContainer).fadeOut(200);
+    $(projectsContainer).fadeOut(200);
+
+    setTimeout(function() {
+      $(experienceContainer).delay(200).fadeIn(200);
+      $(experienceContainer).delay(500).removeClass('hide');
+    }, 250)
   });
 
   $(projectsBtn).on('click', function() {
-    $(aboutContainer).removeClass('show');
-    $(experienceContainer).removeClass('show');
-    $(projectsContainer).addClass('show');
+    $(aboutContainer).fadeOut(200);
+    $(experienceContainer).fadeOut(200);
+
+    $(projectsContainer).delay(200).fadeIn(200);
+    $(projectsContainer).delay(200).removeClass('hide');
+
+    setTimeout(function() {
+      $(projectsContainer).delay(200).fadeIn(200);
+      $(projectsContainer).delay(500).removeClass('hide');
+    }, 250)
   });
 }
 
