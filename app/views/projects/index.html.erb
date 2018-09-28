@@ -1,55 +1,17 @@
 <h1 class="raleway-dots center mt2 mb2">
   msampson
 </h1>
-<h4 class="raleway mt2 selected">
-  <a href="#" class="black">ABOUT</a>
-  <a href="#">PROJECTS</a>
-  <a href="#">EXPERIENCE</a>
-  <a href="#">RESUME</a>
-</h4>
-<hr>
 
-<% @experience.each do |experience| %>
-  <div class='experience-info'>
-    <div class='experience-title noticia'>
-     <%= experience.position %> @ <%= experience.title %>
-    </div>
-    <div class='experience-sidetitle noticia'>
-      <%= experience.start_date %> to <%= experience.end_date %> | Mountain View, CA
-    </div>
-    <div class='clear'></div>
-    <br />
-    <div class='experience-content'>
-      <%= experience.content %>
-    </div>
+<%= render partial: 'shared/nav' %>
+
+<div class="about-container">
+  <div class="avatar-container">
+
   </div>
-<% end %>
+  <div class="about-content">
 
-<h1>Projects</h1>
-<hr>
-
-<div class="row">
-  <% @projects.each do |project| %>
-    <div class="col-md-6">
-      <div class="project-card <%= project.css_class %>">
-        <div class="tag-header closed">
-          <i class="devicon-postgresql-plain-wordmark"></i>
-          <i class="devicon-ruby-plain-wordmark"></i>
-          <i class="devicon-rails-plain-wordmark"></i>
-          <i class="devicon-html5-plain-wordmark"></i>
-          <i class="devicon-jquery-plain-wordmark"></i>
-        </div>
-        <div class="project-title">
-          <%= link_to project.title, project.link_address %>
-
-        </div>
-        <div class="project-footer">
-          <a href="#">
-            <i class="devicon-github-plain-wordmark"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-  <% end %>
+  </div>
 </div>
 
+<%= render partial: 'shared/experience' %>
+<%= render partial: 'shared/projects' %>

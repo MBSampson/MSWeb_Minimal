@@ -1,0 +1,24 @@
+<div class="row project-container">
+  <% @projects.each do |project| %>
+    <div class="col-md-6">
+      <div class="project-card <%= project.css_class %>">
+        <div class="tag-header closed">
+          <i class="devicon-postgresql-plain-wordmark"></i>
+          <i class="devicon-ruby-plain-wordmark"></i>
+          <i class="devicon-rails-plain-wordmark"></i>
+          <i class="devicon-html5-plain-wordmark"></i>
+          <i class="devicon-jquery-plain-wordmark"></i>
+        </div>
+        <div class="project-title">
+          <%= link_to project.title, project.link_address %>
+
+        </div>
+        <div class="project-footer">
+          <a href="#">
+            <i class="devicon-github-plain-wordmark"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

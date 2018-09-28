@@ -58,11 +58,18 @@ body {
   text-align: center;
 }
 
-.selected {
+.main-nav {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+
   a {
     width: 24.3%;
     text-align: center;
     display: inline-block;
     color: $sky-blue;
+  }
+
+  a:hover {
+    text-decoration: none;
   }
 }

@@ -1,0 +1,17 @@
+<div class="experience-container">
+  <% @experience.each do |experience| %>
+    <div class='experience-item'>
+      <div class='experience-title noticia'>
+        <%= experience.position %> @ <%= experience.title %>
+      </div>
+      <div class='experience-sidetitle noticia'>
+        <%= experience.start_date %> to <%= experience.end_date %> | <%= experience.location %>
+      </div>
+      <div class='clear'></div>
+      <br />
+      <div class='experience-content'>
+        <%= experience.content %>
+      </div>
+    </div>
+  <% end %>
+</div>
