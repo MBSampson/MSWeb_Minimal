@@ -37,7 +37,7 @@ function setNavListeners(aboutBtn, experienceBtn, projectsBtn, aboutContainer, e
 
     setTimeout(function() {
       $(aboutContainer).delay(200).fadeIn(200);
-    }, 250)
+    }, 500)
   });
 
   $(experienceBtn).on('click', function() {
@@ -47,7 +47,7 @@ function setNavListeners(aboutBtn, experienceBtn, projectsBtn, aboutContainer, e
     setTimeout(function() {
       $(experienceContainer).delay(200).fadeIn(200);
       $(experienceContainer).delay(500).removeClass('hide');
-    }, 250)
+    }, 500)
   });
 
   $(projectsBtn).on('click', function() {
@@ -60,7 +60,7 @@ function setNavListeners(aboutBtn, experienceBtn, projectsBtn, aboutContainer, e
     setTimeout(function() {
       $(projectsContainer).delay(200).fadeIn(200);
       $(projectsContainer).delay(500).removeClass('hide');
-    }, 250)
+    }, 500)
   });
 }
 
