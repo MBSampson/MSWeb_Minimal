@@ -34,10 +34,35 @@ body {
   font-family: 'Noticia Text', sans-serif;
 }
 
-.play {
-  font-family: 'Play', sans-serif;
-}
-
 .raleway-dots {
   font-family: 'Raleway Dots', cursive;
+}
+
+.mt2 {
+  margin-top: 2%;
+}
+
+.mb2 {
+  margin-bottom: 2%;
+}
+
+.selected {
+  color: $sky-blue;
+}
+
+.black {
+  color: black !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.selected {
+  a {
+    width: 24.3%;
+    text-align: center;
+    display: inline-block;
+    color: $sky-blue;
+  }
 }

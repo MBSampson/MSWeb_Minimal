@@ -2,6 +2,7 @@
 .project-card {
   width: 350px;
   height: 450px;
+  background: black;
 
   border: 5px single $light-grey;
   position: relative;
@@ -20,7 +21,7 @@
     color: $white;
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.9);
   }
 
   .project-footer {
@@ -83,14 +84,21 @@
 }
 
 .moviegrumps {
-  background: url('movie-seats.jpg');
+  background-image: url('movie-seats.jpg');
   background-position: center;
 }
 
 .adspace {
-  background: url('warehouse-bg2.jpg');
+  background-image: url('warehouse-bg2.jpg');
 }
 
 .casadelsol {
-  background: url('cds-bg.jpg');
+  background-image: url('cds-bg.jpg');
+}
+
+.wowtome {
+  background-image: url('wowtome-bg2.jpg');
+  background-position: 48%;
+  background-size: 150%;
+  background-repeat: no-repeat;
 }

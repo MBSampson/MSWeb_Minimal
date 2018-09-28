@@ -23,6 +23,13 @@ Experience.create(
 )
 
 Project.create(
+  title: 'WoWTome',
+  css_class: 'wowtome',
+  technologies: ['ruby', 'rails', 'postgresql', 'html', 'scss', 'jquery'],
+  link_address: '#'
+)
+
+Project.create(
   title: 'MovieGrumps',
   css_class: 'moviegrumps',
   technologies: ['ruby', 'postgresql', 'html', 'rails'],
