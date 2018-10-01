@@ -8,29 +8,23 @@
     height: 450px;
 
     border: 5px single $light-grey;
+    border-radius: 10px;
     position: relative;
 
     -webkit-filter: grayscale(100%);
 
     // Center for mobile
-    margin: 10px auto;
-
-    .project-title {
-      position: absolute;
-      top: 40%;
-      width: 100%;
-      text-align: center;
-      color: $white;
-      font-family: 'Raleway', sans-serif;
-      font-size: 25px;
-      background: rgba(0, 0, 0, 0.9);
-    }
+    margin: 0 auto 25px;
 
     .project-footer {
-      width: 100%;
-      text-align: right;
       position: absolute;
-      bottom: 0;
+      bottom: 10px;
+      right: 0;
+      width: 42%;
+      height: 30px;
+      padding-top: 3px;
+      background: black;
+      border-radius: 5px;
     }
 
     a {
@@ -45,7 +39,7 @@
       max-height: 50px;
       width: 100%;
       border-bottom: 1px solid white;
-      background: $light-grey;
+      border-radius: 10px;
       text-align: center;
       background: black;
 
@@ -101,7 +95,6 @@
 
 .wowtome {
   background-image: url('wowtome-bg2.jpg');
-  background-position: 48%;
-  background-size: 150%;
+  background-size: 100%;
   background-repeat: no-repeat;
 }

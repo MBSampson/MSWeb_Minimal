@@ -35,6 +35,10 @@ function setNavListeners(aboutBtn, experienceBtn, projectsBtn, aboutContainer, e
     $(experienceContainer).fadeOut(200);
     $(projectsContainer).fadeOut(200);
 
+    $(aboutBtn).addClass('selected');
+    $(experienceBtn).removeClass('selected');
+    $(projectsBtn).removeClass('selected');
+
     setTimeout(function() {
       $(aboutContainer).delay(200).fadeIn(200);
     }, 500)
@@ -43,6 +47,10 @@ function setNavListeners(aboutBtn, experienceBtn, projectsBtn, aboutContainer, e
   $(experienceBtn).on('click', function() {
     $(aboutContainer).fadeOut(200);
     $(projectsContainer).fadeOut(200);
+
+    $(experienceBtn).addClass('selected');
+    $(aboutBtn).removeClass('selected');
+    $(projectsBtn).removeClass('selected');
 
     setTimeout(function() {
       $(experienceContainer).delay(200).fadeIn(200);
@@ -54,8 +62,9 @@ function setNavListeners(aboutBtn, experienceBtn, projectsBtn, aboutContainer, e
     $(aboutContainer).fadeOut(200);
     $(experienceContainer).fadeOut(200);
 
-    $(projectsContainer).delay(200).fadeIn(200);
-    $(projectsContainer).delay(200).removeClass('hide');
+    $(experienceBtn).removeClass('selected');
+    $(aboutBtn).removeClass('selected');
+    $(projectsBtn).addClass('selected');
 
     setTimeout(function() {
       $(projectsContainer).delay(200).fadeIn(200);

@@ -1,4 +1,5 @@
 @import 'bootstrap';
+@import 'font-awesome';
 @import 'colors';
 @import 'about';
 @import 'projects';
@@ -20,40 +21,19 @@ body {
   position: relative;
 }
 
+#main-header {
+  font-family: 'Raleway Dots', cursive;
+  margin: 2vh 0 4vh;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
 .clear {
   clear: both;
 }
 
 .emphasis {
   font-size: 1.2em;
-}
-
-.raleway{
-  font-family: 'Raleway', sans-serif;
-}
-
-.open-sans{
-  font-family: 'Open Sans', sans-serif;
-}
-
-.noticia {
-  font-family: 'Noticia Text', sans-serif;
-}
-
-.raleway-dots {
-  font-family: 'Raleway Dots', cursive;
-}
-
-.mt2 {
-  margin-top: 2%;
-}
-
-.mb2 {
-  margin-bottom: 2%;
-}
-
-.black {
-  color: black !important;
 }
 
 .hide {
@@ -64,7 +44,14 @@ body {
   opacity: 1 !important;
 }
 
-.center {
+.text-center {
   text-align: center;
 }
 
+.inline {
+  display: inline-block;
+}
+
+.underline {
+  text-decoration: underline;
+}

@@ -1,24 +1,32 @@
 #main-nav {
   font-family: 'Raleway', sans-serif;
-  font-size: 25px;
+  margin-bottom: 25px;
 
   button, a {
     width: 24.3%;
     text-align: center;
     display: inline-block;
     color: $sky-blue;
+    font-size: 18px;
 
     background: none;
     border: none;
 
     cursor: pointer;
+
+    transition: color 1s;
   }
 
-  a:hover {
+  button:hover, a:hover {
     text-decoration: none;
+    color: $soft-blue;
   }
 
   button:focus, a:focus {
     outline: none;
+  }
+
+  .selected {
+    color: black;
   }
 }

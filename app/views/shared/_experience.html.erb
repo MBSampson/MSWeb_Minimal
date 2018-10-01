@@ -1,14 +1,14 @@
 <div id="experience-container" class="hide">
   <% @experience.each do |experience| %>
     <div class='experience-item'>
-      <div class='experience-title noticia'>
+      <div class='experience-title'>
         <%= experience.position %> @ <%= experience.title %>
       </div>
-      <div class='experience-sidetitle noticia'>
-        <%= datetime_to_readable_string(experience.start_date) %> to <%= datetime_to_readable_string(experience.end_date) %> | <%= experience.location_city %>, <%= experience.location_state%>
+      <div class='experience-sidetitle'>
+        <%= display_experience_sidetitle(experience) %>
       </div>
       <div class='clear'></div>
-      <br />
+      <hr>
       <div class='experience-content'>
         <%= experience.content %>
       </div>
