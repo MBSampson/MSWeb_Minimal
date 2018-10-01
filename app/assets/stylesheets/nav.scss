@@ -1,12 +1,12 @@
 #main-nav {
   font-family: 'Raleway', sans-serif;
-  margin-bottom: 25px;
+  margin-bottom: 8vh;
 
   button, a {
     width: 24.3%;
     text-align: center;
     display: inline-block;
-    color: $sky-blue;
+    color: $soft-blue;
     font-size: 18px;
 
     background: none;
@@ -19,7 +19,7 @@
 
   button:hover, a:hover {
     text-decoration: none;
-    color: $soft-blue;
+    color: $royal-blue;
   }
 
   button:focus, a:focus {

@@ -2,9 +2,9 @@
   position: absolute;
   top: 0;
   width: 100%;
+  z-index: 1;
 
   .about-content {
-    margin-top: 10vh;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     text-align: center;
@@ -49,8 +49,11 @@
 
   .business-card-footer {
     position: absolute;
-    bottom: 0;
+    top: 140px;
     left: 50px;
-    color: #2d52a3;
+
+    .business-card-link {
+      color: #0056b3 !important;
+    }
   }
 }

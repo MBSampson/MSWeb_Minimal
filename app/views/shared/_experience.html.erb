@@ -10,7 +10,10 @@
       <div class='clear'></div>
       <hr>
       <div class='experience-content'>
-        <%= experience.content %>
+        <p>
+          <%= experience.description %>
+        </p>
+        <%= display_experience_content(experience) %>
       </div>
     </div>
   <% end %>

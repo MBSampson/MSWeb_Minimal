@@ -3,11 +3,7 @@
     <div class="col-md-6">
       <div class="project-card <%= project.css_class %>">
         <div class="tag-header closed">
-          <i class="devicon-postgresql-plain-wordmark"></i>
-          <i class="devicon-ruby-plain-wordmark"></i>
-          <i class="devicon-rails-plain-wordmark"></i>
-          <i class="devicon-html5-plain-wordmark"></i>
-          <i class="devicon-jquery-plain-wordmark"></i>
+          <%= display_project_devicons(project) %>
         </div>
         <div class="project-footer text-center">
           <%= link_to project.title.upcase, project.link_address %>

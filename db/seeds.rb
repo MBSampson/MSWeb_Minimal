@@ -1,7 +1,13 @@
 Experience.create(
   title: 'Teachers Cirriculum Institute',
   position: 'Intern Software Developer',
-  content: 'Nunc non mi arcu. Integer dui ligula, tempor id suscipit ut, ornare pretium purus. Nulla facilisi. Etiam a cursus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla interdum aliquet. Aenean facilisis mattis massa, quis bibendum turpis consequat nec. Cras est magna, placerat vitae enim non, aliquet consectetur est. Nullam faucibus turpis in turpis pulvinar, tempus dignissim leo tristique. Vivamus aliquet dui sed cursus dignissim. Ut fermentum neque eget velit fermentum iaculis. Curabitur vel augue in mauris venenatis suscipit in eu arcu.',
+  description: 'Primarily worked with technologies such as: jQuery, React, PostgreSQL, RSpec, SCSS, and HTML5.',
+  content: [
+      'Implemented web accessibility compliance WCAG 2.0 to existing rails views using core front-end technologies.',
+      'Created modular components with front-end JS libraries such as jQuery and React.',
+      'Incorporated unit tests with RSpec and FactoryGirl to ensure code functionality and longevity.',
+      'Set up CSV generation using rails helpers, sidekiq workers, and application DB data.'
+  ],
   start_date: DateTime.new(2018, 7),
   end_date: DateTime.new(2018, 9),
   location_city: 'Mountain View',
@@ -11,7 +17,13 @@ Experience.create(
 Experience.create(
   title: 'RubyThree',
   position: 'Junior Web Developer',
-  content: 'Nunc non mi arcu. Integer dui ligula, tempor id suscipit ut, ornare pretium purus. Nulla facilisi. Etiam a cursus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla interdum aliquet. Aenean facilisis mattis massa, quis bibendum turpis consequat nec. Cras est magna, placerat vitae enim non, aliquet consectetur est. Nullam faucibus turpis in turpis pulvinar, tempus dignissim leo tristique. Vivamus aliquet dui sed cursus dignissim. Ut fermentum neque eget velit fermentum iaculis. Curabitur vel augue in mauris venenatis suscipit in eu arcu.',
+  description: "Learned Ruby on Rails and practiced convention over configuration, don't repeat yourself, and active record pattern methodologies.",
+  content: [
+      'Used Bootstrap grid system and templates to ensure cross browser compatibility and responsive design across mobile and desktop platforms. ',
+      'Utilized RestEntity in conjunction with managers to parse JSON data retrieved from the Rest APIs to utilize in application views.',
+      'Implemented Stripe gem to handle user credit card transactions. Used Stripe presets and configured settings in the controller.',
+      'Generated CRUD actions using the controller and managed permitted params via the params hash in order to pass data from the view to the controller.'
+  ],
   start_date: DateTime.new(2018, 2),
   end_date: DateTime.new(2018, 5),
   location_city: 'Dublin',
@@ -21,7 +33,13 @@ Experience.create(
 Experience.create(
   title: 'Felix Properties',
   position: 'Web Developer',
-  content: 'Nunc non mi arcu. Integer dui ligula, tempor id suscipit ut, ornare pretium purus. Nulla facilisi. Etiam a cursus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla interdum aliquet. Aenean facilisis mattis massa, quis bibendum turpis consequat nec. Cras est magna, placerat vitae enim non, aliquet consectetur est. Nullam faucibus turpis in turpis pulvinar, tempus dignissim leo tristique. Vivamus aliquet dui sed cursus dignissim. Ut fermentum neque eget velit fermentum iaculis. Curabitur vel augue in mauris venenatis suscipit in eu arcu.',
+  description: 'Acted as a freelance web developer to design, implement, and maintain a web presence for an 18-unit apartment complex.',
+  content: [
+      'Utilized Google API to provide an interactive and responsive local map.',
+      'Prototyped web page designs using HTML5, CSS3, and Twitter Bootstrap.',
+      'Debugged JavaScript and front-end code with Multi-Browser Developer tools to ensure cross compatibility.',
+      "Collaborated and communicated with company's second in command to design and implement wireframes."
+  ],
   start_date: DateTime.new(2018, 8),
   end_date: DateTime.new(2018, 9),
   location_city: 'Sunnyvale',
@@ -31,7 +49,13 @@ Experience.create(
 Experience.create(
   title: 'Starbucks',
   position: 'Barista',
-  content: 'Nunc non mi arcu. Integer dui ligula, tempor id suscipit ut, ornare pretium purus. Nulla facilisi. Etiam a cursus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla interdum aliquet. Aenean facilisis mattis massa, quis bibendum turpis consequat nec. Cras est magna, placerat vitae enim non, aliquet consectetur est. Nullam faucibus turpis in turpis pulvinar, tempus dignissim leo tristique. Vivamus aliquet dui sed cursus dignissim. Ut fermentum neque eget velit fermentum iaculis. Curabitur vel augue in mauris venenatis suscipit in eu arcu.',
+  description: 'Developed interpersonal and communication skills in a fast-paced and customer-oriented environment.',
+  content: [
+      'Contributed to team environment through store support and morale boosting recognition.',
+      'Performed opening and closing store routine duties.',
+      'Provide quality assistance to guests and remedied all issues with a positive demeanor.',
+      'Train and coach new partners on beverage management and multitasking.'
+  ],
   start_date: DateTime.new(2018, 7),
   end_date: DateTime.new(2018, 9),
   location_city: 'San Jose',

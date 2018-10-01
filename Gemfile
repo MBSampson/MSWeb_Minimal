@@ -44,6 +44,11 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+
+  # Use pry for better debugging
+  gem 'pry-byebug', '~> 3.4'
+  gem 'pry-rails', '~> 0.3.4'
+  gem 'pry-stack_explorer', '~> 0.4.9'
 end
 
 group :development do
