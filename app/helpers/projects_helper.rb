@@ -8,21 +8,28 @@ module ProjectsHelper
   end
 
   def display_project_devicons(project)
-    binding.pry
     content_tag :div do
-      concat raw("<i class='devicon-postgresql-plain-wordmark'></i>")
-      concat raw("<i class='devicon-postgresql-plain-wordmark'></i>")
+      project.technologies.each do |tech|
+        case tech
+        when 'postgresql'
+          concat raw("<i class='devicon-postgresql-plain-wordmark'></i>")
+        when 'ruby'
+          concat raw("<i class='devicon-ruby-plain-wordmark'></i>")
+        when 'rails'
+          concat raw("<i class='devicon-rails-plain-wordmark'></i>")
+        when 'html'
+          concat raw("<i class='devicon-html5-plain-wordmark'></i>")
+        when 'jquery'
+          concat raw("<i class='devicon-jquery-plain-wordmark'></i>")
+        when 'javascript'
+          concat raw("<i class='devicon-javascript-plain'></i>")
+        when 'css'
+          concat raw("<i class='devicon-css3-plain-wordmark'></i>")
+        when 'scss'
+          concat raw("<i class='devicon-sass-original'></i>")
+
+        end
+      end
     end
   end
 end
-
-
-
-# PGSQL <i class="devicon-postgresql-plain-wordmark"></i>
-# RUBY  <i class="devicon-ruby-plain-wordmark"></i>
-# RAILS <i class="devicon-rails-plain-wordmark"></i>
-# HTML  <i class="devicon-html5-plain-wordmark"></i>
-# JQ    <i class="devicon-jquery-plain-wordmark"></i>
-# JS    <i class="devicon-javascript-plain"></i>
-# CSS   <i class="devicon-css3-plain-wordmark"></i>
-# SCSS  <i class="devicon-sass-original"></i>

@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d41c447-cd7a-48b9-9673-72d9bf986272" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20181001184617_change_content_to_an_array.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MSWeb_Minimal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MSWeb_Minimal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/experience.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/experience.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/helpers/projects_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/projects_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_about.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_about.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_experience.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_experience.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_projects.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_projects.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -64,7 +48,7 @@
           <entry key="Gemfile" value="5" />
           <entry key="erb" value="1736" />
           <entry key="js" value="152" />
-          <entry key="rb" value="3371" />
+          <entry key="rb" value="3657" />
           <entry key="scss" value="1494" />
         </counts>
       </usages-collector>
@@ -72,7 +56,7 @@
         <counts>
           <entry key="JavaScript" value="152" />
           <entry key="RHTML" value="1736" />
-          <entry key="Ruby" value="3376" />
+          <entry key="Ruby" value="3662" />
           <entry key="SCSS" value="1494" />
         </counts>
       </usages-collector>
@@ -97,8 +81,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/helpers/projects_helper.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                <state relative-caret-position="405">
+                  <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -255,12 +239,12 @@
       <option name="presentableId" value="Default" />
       <updated>1538331651513</updated>
       <workItem from="1538331654805" duration="11280000" />
-      <workItem from="1538412082492" duration="7873000" />
+      <workItem from="1538412082492" duration="8537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19153000" />
+    <option name="totallyTimeSpent" value="19817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1900" height="972" extended-state="0" />
@@ -436,8 +420,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/projects_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="405">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
