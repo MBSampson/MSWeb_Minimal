@@ -27,7 +27,6 @@ module ProjectsHelper
           concat raw("<i class='devicon-css3-plain-wordmark'></i>")
         when 'scss'
           concat raw("<i class='devicon-sass-original'></i>")
-
         end
       end
     end

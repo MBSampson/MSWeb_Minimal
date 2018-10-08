@@ -55,3 +55,43 @@ body {
 .underline {
   text-decoration: underline;
 }
+
+
+/*** Mobile ***/
+
+@media only screen and (max-width: 480px) {
+  #main-header {
+    font-size: 2.5rem;
+  }
+
+  #main-nav button, #main-nav a {
+    width: 23.3%;
+    font-size: 11px;
+  }
+
+  .container {
+    min-width: 340px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .about-content {
+    font-size: 11px !important;
+  }
+
+  .experience-sidetitle {
+    display: none !important;
+  }
+
+  .experience-title {
+    font-size: 14px !important;
+  }
+
+  .experience-content {
+    font-size: 11px !important;
+  }
+
+  .experience-item {
+    margin: 0 1vh !important;
+  }
+}

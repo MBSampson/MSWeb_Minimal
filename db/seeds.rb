@@ -1,5 +1,5 @@
 Experience.create(
-  title: 'Teachers Cirriculum Institute',
+  title: 'TCI',
   position: 'Intern Software Developer',
   description: 'Primarily worked with technologies such as: jQuery, React, PostgreSQL, RSpec, SCSS, and HTML5.',
   content: [
@@ -16,7 +16,7 @@ Experience.create(
 
 Experience.create(
   title: 'RubyThree',
-  position: 'Junior Web Developer',
+  position: 'Web Developer',
   description: "Learned Ruby on Rails and practiced convention over configuration, don't repeat yourself, and active record pattern methodologies.",
   content: [
       'Used Bootstrap grid system and templates to ensure cross browser compatibility and responsive design across mobile and desktop platforms. ',
