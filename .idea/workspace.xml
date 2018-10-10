@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4d41c447-cd7a-48b9-9673-72d9bf986272" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_about.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_about.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -52,7 +50,7 @@
           <entry key="erb" value="2792" />
           <entry key="js" value="153" />
           <entry key="rb" value="3668" />
-          <entry key="scss" value="3156" />
+          <entry key="scss" value="3178" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -60,7 +58,7 @@
           <entry key="JavaScript" value="153" />
           <entry key="RHTML" value="2792" />
           <entry key="Ruby" value="3673" />
-          <entry key="SCSS" value="3156" />
+          <entry key="SCSS" value="3178" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -69,14 +67,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.67754316">
+    <splitter split-orientation="horizontal" split-proportion="0.5553423">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/shared/_about.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+                <state relative-caret-position="270">
+                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
                 </state>
               </provider>
             </entry>
@@ -88,8 +86,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/about.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="583">
-                  <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+                <state relative-caret-position="210">
+                  <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -264,12 +262,12 @@
       <workItem from="1538331654805" duration="11280000" />
       <workItem from="1538412082492" duration="8570000" />
       <workItem from="1539022080153" duration="10561000" />
-      <workItem from="1539122367063" duration="6272000" />
+      <workItem from="1539122367063" duration="7580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36683000" />
+    <option name="totallyTimeSpent" value="37991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1900" height="976" extended-state="0" />
@@ -439,17 +437,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_about.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/about.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/about.scss">
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
