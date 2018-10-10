@@ -14,7 +14,11 @@
 }
 
 body {
-  background: $accented-white;
+  // background: $accented-white;
+}
+
+hr {
+  box-shadow: 1px 1px 1px lightblue;
 }
 
 #main-content {

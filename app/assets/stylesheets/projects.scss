@@ -4,7 +4,7 @@
   top: 0;
 
   .project-card {
-    width: 320px;
+    width: 275px;
     height: 425px;
 
     border: 5px single $light-grey;
@@ -17,8 +17,9 @@
     margin: 0 auto 25px;
 
     .project-footer {
-      font-family: 'Barlow', sans-serif;
+      font-family: 'Raleway', sans-serif;
       font-weight: bold;
+      color: white;
       position: absolute;
       bottom: 10px;
       right: 25%;
@@ -40,10 +41,9 @@
     .tag-header {
       max-height: 50px;
       width: 100%;
-      border-bottom: 1px solid white;
       border-radius: 10px;
       text-align: center;
-      background: black;
+      background: rgba(0, 0, 0, 0.75);
 
       overflow-y: hidden;
 
@@ -97,6 +97,6 @@
 
 .wowtome {
   background-image: url('wowtome-bg2.jpg');
-  background-size: 100%;
+  background-size: 101%;
   background-repeat: no-repeat;
 }

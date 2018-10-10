@@ -68,28 +68,28 @@ Project.create(
   title: 'WoWTome',
   css_class: 'wowtome',
   technologies: ['ruby', 'rails', 'postgresql', 'html', 'scss', 'jquery'],
-  link_address: '#'
+  link_address: 'https://github.com/MBSampson/WoWTome'
 )
 
 Project.create(
   title: 'MovieGrumps',
   css_class: 'moviegrumps',
   technologies: ['ruby', 'postgresql', 'html', 'rails'],
-  link_address: '#'
+  link_address: 'https://github.com/MBSampson/MovieGrumps'
 )
 
 Project.create(
   title: 'R3Adspace',
   css_class: 'adspace',
   technologies: ['ruby', 'rails', 'postgresql', 'html', 'jquery'],
-  link_address: '#'
+  link_address: 'https://github.com/MBSampson/r3adspace'
 )
 
 Project.create(
   title: 'Casa Del Sol',
   css_class: 'casadelsol',
   technologies: ['javascript', 'html', 'css'],
-  link_address: '#'
+  link_address: 'https://github.com/MBSampson/Casa-Del-Sol-Web-Presence'
 )
 
 puts 'Generated Project Seeds'

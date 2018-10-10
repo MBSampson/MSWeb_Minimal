@@ -1,14 +1,16 @@
 <div id="projects-container" class="row hide">
   <% @projects.each do |project| %>
-    <div class="col-md-6">
-      <div class="project-card <%= project.css_class %>">
-        <div class="tag-header closed">
-          <%= display_project_devicons(project) %>
+    <div class="col-md-3">
+      <%= link_to project.link_address do %>
+        <div class="project-card <%= project.css_class %>">
+          <div class="tag-header closed">
+            <%= display_project_devicons(project) %>
+          </div>
+          <div class="project-footer text-center">
+            <%= project.title.upcase %>
+          </div>
         </div>
-        <div class="project-footer text-center">
-          <%= link_to project.title.upcase, project.link_address %>
-        </div>
-      </div>
+      <% end %>
     </div>
   <% end %>
 </div>

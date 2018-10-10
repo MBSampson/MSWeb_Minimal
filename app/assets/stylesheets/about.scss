@@ -11,17 +11,17 @@
     img {
       margin-right: 10px;
       float: left;
-      -webkit-transform: scaleX(-1);
-      transform: scaleX(-1);
+      border-radius: 40px;
+      width: 150px;
     }
 
     .emphasis {
       color: #2d52a3;
       float: left;
       font-family: Georgia;
-      font-size: 75px;
+      font-size: 80px;
       line-height: 50px;
-      padding: 9px 8px 0 0;
+      padding: 13px 8px 0 0;
     }
   }
 }
