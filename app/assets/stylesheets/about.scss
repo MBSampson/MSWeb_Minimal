@@ -3,25 +3,60 @@
   top: 0;
   width: 100%;
   z-index: 1;
+  font-family: 'Lato', sans-serif;
 
   .about-content {
     font-size: 14px;
     margin: 0 15vh 5vh;
 
     img {
-      margin-right: 10px;
+      margin: 0 10px 10px 0;
       float: left;
       border-radius: 40px;
-      width: 150px;
+      width: 20%;
     }
 
     .emphasis {
-      color: #2d52a3;
+      color: $royal-blue;
       float: left;
       font-family: Georgia;
       font-size: 80px;
       line-height: 50px;
       padding: 13px 8px 0 0;
+    }
+  }
+
+  .about-link-blocks {
+    font-size: 30px;
+    color: $royal-blue;
+    text-align: center;
+    border: 1px solid black;
+    float: left;
+    width: 80%;
+
+    i {
+      width: 19%;
+      color: white;
+    }
+
+    i:nth-child(1) {
+      background: orange;
+    }
+
+    i:nth-child(2) {
+      background: purple;
+    }
+
+    i:nth-child(3) {
+      background: blue;
+    }
+
+    i:nth-child(4) {
+      background: green;
+    }
+
+    i:nth-child(5) {
+      background: black;
     }
   }
 }
