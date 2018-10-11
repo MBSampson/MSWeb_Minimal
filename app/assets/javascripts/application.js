@@ -31,6 +31,9 @@ $(function(){
 });
 
 function setNavListeners(aboutBtn, experienceBtn, projectsBtn, aboutContainer, experienceContainer, projectsContainer) {
+
+  // Appends listeners to each nav button which prompts the current content to fadeOut and the selected content to
+  // fadeIn
   $(aboutBtn).on('click', function() {
     $(experienceContainer).fadeOut(200);
     $(projectsContainer).fadeOut(200);
@@ -74,6 +77,8 @@ function setNavListeners(aboutBtn, experienceBtn, projectsBtn, aboutContainer, e
 }
 
 function setProjectCardListeners(projectCards) {
+  // Displays a project card's tag-header and removes grayscale from the project image
+  // on mouseenter
   $(projectCards).each(function(index) {
     $(projectCards).eq(index).on('mouseenter', function(){
       $(this).addClass('non-grayscale');

@@ -15,21 +15,17 @@
       margin: 0 auto 40px;
       display: block;
     }
+  }
 
-    .emphasis {
-      color: $royal-blue;
-      float: left;
-      font-family: Georgia;
-      font-size: 90px;
-      line-height: 50px;
-      padding: 20px 8px 0 0;
-    }
+  .about-me-section {
+    float: left;
+    width: 60%;
   }
 
   .about-link-blocks {
     font-size: 30px;
-    text-align: center;
-    margin-top: 40px;
+    float: right;
+    width: 35%;
 
     a {
       margin: 0 1%;
