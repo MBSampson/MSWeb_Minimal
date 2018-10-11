@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   z-index: 1;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Anime Ace Regular', serif;
 
   .about-content {
     font-size: 16px;
@@ -14,42 +14,6 @@
       width: 125px;
       margin: 0 auto 40px;
       display: block;
-    }
-  }
-
-  .about-me-section {
-    float: left;
-    width: 60%;
-  }
-
-  .about-link-blocks {
-    font-size: 30px;
-    float: right;
-    width: 35%;
-
-    a {
-      margin: 0 1%;
-      color: white;
-      display: inline-block;
-    }
-
-    a:hover {
-      text-decoration: none;
-    }
-
-    // LinkedIn
-    a:nth-child(1) {
-      color: $soft-blue;
-    }
-
-    // Steam
-    a:nth-child(2) {
-      color: $dark-grey;
-    }
-
-    // Github
-    a:nth-child(3) {
-      color: $soft-blue;
     }
   }
 }
