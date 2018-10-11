@@ -1,4 +1,7 @@
 module ProjectsHelper
+
+  # Displays a date in 'month year' format
+  # Year is emphasized with a larger font size
   def datetime_to_readable_string(datetime)
     date_str = datetime.strftime('%B %Y').split(' ')
     content_tag :div, class: 'inline' do
@@ -7,6 +10,7 @@ module ProjectsHelper
     end
   end
 
+  # Displays devicon associated with a project technology
   def display_project_devicons(project)
     content_tag :div do
       project.technologies.each do |tech|

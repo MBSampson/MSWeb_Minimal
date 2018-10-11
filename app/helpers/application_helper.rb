@@ -1,4 +1,7 @@
 module ApplicationHelper
+
+  # Format
+  # July 2018 - September 2018 // Mountain View CA
   def display_experience_sidetitle(experience)
     content_tag :div do
       concat datetime_to_readable_string(experience.start_date)
