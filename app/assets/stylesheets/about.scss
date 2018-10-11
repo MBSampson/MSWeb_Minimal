@@ -12,12 +12,12 @@
     img {
       border-radius: 40px;
       width: 125px;
-      margin: 0 auto 20px;
+      margin: 0 auto 40px;
       display: block;
     }
 
     .emphasis {
-      color: #2d52a3;
+      color: $royal-blue;
       float: left;
       font-family: Georgia;
       font-size: 90px;
@@ -28,33 +28,32 @@
 
   .about-link-blocks {
     font-size: 30px;
-    color: $royal-blue;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 40px;
 
-    i {
-      width: 19%;
+    a {
+      margin: 0 1%;
       color: white;
+      display: inline-block;
     }
 
-    i:nth-child(1) {
-      background: orange;
+    a:hover {
+      text-decoration: none;
     }
 
-    i:nth-child(2) {
-      background: purple;
+    // LinkedIn
+    a:nth-child(1) {
+      color: $soft-blue;
     }
 
-    i:nth-child(3) {
-      background: blue;
+    // Steam
+    a:nth-child(2) {
+      color: $dark-grey;
     }
 
-    i:nth-child(4) {
-      background: green;
-    }
-
-    i:nth-child(5) {
-      background: black;
+    // Github
+    a:nth-child(3) {
+      color: $soft-blue;
     }
   }
 }
