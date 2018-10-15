@@ -80,7 +80,7 @@ Project.create(
 
 Project.create(
   title: 'R3Adspace',
-  css_class: 'adspace',
+  css_class: 'r3space',
   technologies: ['ruby', 'rails', 'postgresql', 'html', 'jquery'],
   link_address: 'https://github.com/MBSampson/r3adspace'
 )
