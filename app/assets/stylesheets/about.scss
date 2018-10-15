@@ -1,5 +1,6 @@
 #about-container {
   position: absolute;
+  text-align: center;
   top: 0;
   width: 100%;
   z-index: 1;
@@ -17,15 +18,8 @@
     }
   }
 
-  .about-me-section {
-    float: left;
-    width: 60%;
-  }
-
   .about-link-blocks {
     font-size: 30px;
-    float: right;
-    width: 35%;
 
     a {
       margin: 0 1%;
