@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4d41c447-cd7a-48b9-9673-72d9bf986272" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/projects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_projects.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_projects.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -55,18 +56,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="38" />
-          <entry key="erb" value="3663" />
+          <entry key="erb" value="3665" />
           <entry key="js" value="428" />
           <entry key="rb" value="3920" />
-          <entry key="scss" value="3621" />
+          <entry key="scss" value="3626" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="428" />
-          <entry key="RHTML" value="3663" />
+          <entry key="RHTML" value="3665" />
           <entry key="Ruby" value="3958" />
-          <entry key="SCSS" value="3621" />
+          <entry key="SCSS" value="3626" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -79,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_projects.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="120">
+              <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -88,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/projects.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+            <state relative-caret-position="75">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -151,7 +152,6 @@
         <option value="$PROJECT_DIR$/app/views/projects/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_experience.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/experience.scss" />
-        <option value="$PROJECT_DIR$/app/views/shared/_projects.html.erb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
@@ -163,6 +163,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/about.scss" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_projects.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/projects.scss" />
       </list>
     </option>
@@ -279,12 +280,12 @@
       <workItem from="1539022080153" duration="10561000" />
       <workItem from="1539122367063" duration="7608000" />
       <workItem from="1539289890082" duration="3833000" />
-      <workItem from="1539634288699" duration="6456000" />
+      <workItem from="1539634288699" duration="7656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48308000" />
+    <option name="totallyTimeSpent" value="49508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1900" height="976" extended-state="0" />
@@ -527,15 +528,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_projects.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="120">
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/projects.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="82" column="1" lean-forward="true" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
