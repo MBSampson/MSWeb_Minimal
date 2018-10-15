@@ -34,40 +34,40 @@
         <counts>
           <entry key="Gemfile" value="3" />
           <entry key="erb" value="35" />
-          <entry key="jpg" value="4" />
+          <entry key="jpg" value="6" />
           <entry key="js" value="3" />
-          <entry key="png" value="3" />
+          <entry key="png" value="6" />
           <entry key="rb" value="27" />
           <entry key="ru" value="1" />
-          <entry key="scss" value="50" />
+          <entry key="scss" value="51" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="7" />
+          <entry key="Image" value="12" />
           <entry key="JavaScript" value="3" />
           <entry key="RHTML" value="35" />
           <entry key="Ruby" value="31" />
-          <entry key="SCSS" value="50" />
+          <entry key="SCSS" value="51" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Gemfile" value="5" />
-          <entry key="erb" value="2963" />
+          <entry key="erb" value="3663" />
           <entry key="js" value="428" />
           <entry key="rb" value="3909" />
-          <entry key="scss" value="3525" />
+          <entry key="scss" value="3610" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="428" />
-          <entry key="RHTML" value="2963" />
+          <entry key="RHTML" value="3663" />
           <entry key="Ruby" value="3914" />
-          <entry key="SCSS" value="3525" />
+          <entry key="SCSS" value="3610" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -76,14 +76,14 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.6043674">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/shared/_about.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
+                <state relative-caret-position="135">
+                  <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -95,8 +95,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/about.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="28">
-                  <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+                <state relative-caret-position="165">
+                  <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -204,6 +204,13 @@
               <item name="MSWeb_Minimal" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MSWeb_Minimal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MSWeb_Minimal" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -260,12 +267,12 @@
       <workItem from="1539022080153" duration="10561000" />
       <workItem from="1539122367063" duration="7608000" />
       <workItem from="1539289890082" duration="3833000" />
-      <workItem from="1539634288699" duration="147000" />
+      <workItem from="1539634288699" duration="2496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41999000" />
+    <option name="totallyTimeSpent" value="44348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1900" height="976" extended-state="0" />
@@ -386,22 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/bitmoji.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/bitmoji-cat.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/images/bitmoji-self.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/images/warehouse-bg.jpg" />
     <entry file="file://$PROJECT_DIR$/app/assets/images/wowtome-bg.jpg" />
     <entry file="file://$PROJECT_DIR$/app/assets/images/wowtome-bg2.jpg">
@@ -481,17 +472,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_about.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/images/bitmoji.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/bitmoji-cat.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/bitmoji-self.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/cds-bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/movie-seats.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="84" selection-start-line="7" selection-start-column="84" selection-end-line="7" selection-end-column="84" />
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_about.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/about.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="165">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
