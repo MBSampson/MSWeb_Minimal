@@ -25,9 +25,11 @@ $(function(){
   var $aboutContainer = $('#about-container');
   var $experienceContainer = $('#experience-container');
   var $projectsContainer = $('#projects-container');
+  var $topBtns = $('.top-btn');
 
   setNavListeners($aboutBtn, $experienceBtn, $projectsBtn, $aboutContainer, $experienceContainer, $projectsContainer);
   setProjectCardListeners($projectCards);
+  setGoToTopListeners($topBtns);
 });
 
 function setNavListeners(aboutBtn, experienceBtn, projectsBtn, aboutContainer, experienceContainer, projectsContainer) {
@@ -88,6 +90,14 @@ function setProjectCardListeners(projectCards) {
     $(projectCards).eq(index).on('mouseleave', function(){
       $(this).removeClass('non-grayscale');
       $(this).find('.tag-header').addClass('closed');
+    });
+  });
+}
+
+function setGoToTopListeners(topBtns) {
+  $(topBtns).each(function(index){
+    $(topBtns).eq(index).on('click', function(){
+      scroll(0, 0);
     });
   });
 }

@@ -5,7 +5,7 @@
   width: 100%;
 
   .experience-item {
-    margin: 0 15vh 5vh;
+    margin: 0 15vh 2.5vh;
     font-family: 'Raleway', sans-serif;
 
     .experience-title {
@@ -37,5 +37,9 @@
       float: right;
       font-size: 17px;
     }
+  }
+
+  .experience-item:last-of-type {
+    margin-bottom: 1vh;
   }
 }
