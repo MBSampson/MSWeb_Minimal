@@ -62,14 +62,23 @@ hr {
   text-decoration: underline;
 }
 
-.back-to-top {
+.go-to-top-btn {
   text-align: center;
   font-size: 25px;
   display: block;
-  border: 1px solid $sky-blue;
+  border: 1px solid $royal-blue;
   width: 40px;
   margin: 2.5vh auto;
   border-radius: 20px;
+  cursor: pointer;
+  background: none;
+  color: $royal-blue;
+  transition: all 0.5s;
+}
+
+.go-to-top-btn:hover {
+  color: $soft-blue;
+  border: 1px solid $soft-blue;
 }
 
 /*** Mobile Overrides ***/

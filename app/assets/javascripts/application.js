@@ -25,7 +25,7 @@ $(function(){
   var $aboutContainer = $('#about-container');
   var $experienceContainer = $('#experience-container');
   var $projectsContainer = $('#projects-container');
-  var $topBtns = $('.top-btn');
+  var $topBtns = $('.go-to-top-btn');
 
   setNavListeners($aboutBtn, $experienceBtn, $projectsBtn, $aboutContainer, $experienceContainer, $projectsContainer);
   setProjectCardListeners($projectCards);
