@@ -18,14 +18,14 @@
 //= require_tree .
 
 $(function(){
-  var $projectCards = $('.project-card');
-  var $aboutBtn = $('#about-btn');
-  var $experienceBtn = $('#experience-btn');
-  var $projectsBtn = $('#projects-btn');
-  var $aboutContainer = $('#about-container');
-  var $experienceContainer = $('#experience-container');
-  var $projectsContainer = $('#projects-container');
-  var $topBtns = $('.go-to-top-btn');
+  var $projectCards         = $('.project-card');
+  var $aboutBtn             = $('#about-btn');
+  var $experienceBtn        = $('#experience-btn');
+  var $projectsBtn          = $('#projects-btn');
+  var $aboutContainer       = $('#about-container');
+  var $experienceContainer  = $('#experience-container');
+  var $projectsContainer    = $('#projects-container');
+  var $topBtns              = $('.go-to-top-btn');
 
   setNavListeners($aboutBtn, $experienceBtn, $projectsBtn, $aboutContainer, $experienceContainer, $projectsContainer);
   setProjectCardListeners($projectCards);
@@ -95,6 +95,7 @@ function setProjectCardListeners(projectCards) {
 }
 
 function setGoToTopListeners(topBtns) {
+  // Forces the user to the top of the page
   $(topBtns).each(function(index){
     $(topBtns).eq(index).on('click', function(){
       scroll(0, 0);
